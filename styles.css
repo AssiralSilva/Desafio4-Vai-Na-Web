@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body 
+{
+    background-image: url(./assets/background.png);
+    background-size: cover;
+}
+
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section 
+{
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 1em;
+    width: 20%;
+}
+
+.logo
+{
+    height: 13vh;
+}
+
+h1 
+{
+    color: #fff;
+    margin-left: 11%;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+nav 
+{
+    width: 35%;
+}
+
+ul 
+{
+    color: #fff;
+    display: flex;
+}
+
+li{
+    font-size: 1em;
+    margin-right: 3%;
+    font-weight: lighter;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.monstrengo {
+    width: 45em;
+}
+
+.nome-da-serie {
+    position: absolute;
+    bottom: -27%;
+    z-index: 5;
+}
+
+.botao-de-assistir {
+    position: absolute;
+    bottom: -40%;
+}
